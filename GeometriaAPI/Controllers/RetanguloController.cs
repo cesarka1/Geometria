@@ -9,9 +9,9 @@ namespace GeometriaAPI.Controllers
     public class RetanguloController : ControllerBase
     {
         [HttpGet]
-         public ActionResult<string> GetArea(){
+         public ActionResult<string> GetArea(double basev, double alturav){
             Retangulo retangulo = new Retangulo();
-            string[] medidas = {"5", "5"};
+            string[] medidas = {basev.ToString(), alturav.ToString()};
             return Convert.ToString(retangulo.CalcularArea(medidas));
          }
     }
