@@ -1,0 +1,5 @@
+C:\Users\Usuário\Documents\Curso Senai\Modelagem de Sistemas\Geometria\Geometria\GeometriaTest\obj\Debug\net5.0\GeometriaTest.csproj.AssemblyReference.cache
+C:\Users\Usuário\Documents\Curso Senai\Modelagem de Sistemas\Geometria\Geometria\GeometriaTest\obj\Debug\net5.0\GeometriaTest.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuário\Documents\Curso Senai\Modelagem de Sistemas\Geometria\Geometria\GeometriaTest\obj\Debug\net5.0\GeometriaTest.AssemblyInfoInputs.cache
+C:\Users\Usuário\Documents\Curso Senai\Modelagem de Sistemas\Geometria\Geometria\GeometriaTest\obj\Debug\net5.0\GeometriaTest.AssemblyInfo.cs
+C:\Users\Usuário\Documents\Curso Senai\Modelagem de Sistemas\Geometria\Geometria\GeometriaTest\obj\Debug\net5.0\GeometriaTest.csproj.CoreCompileInputs.cache
