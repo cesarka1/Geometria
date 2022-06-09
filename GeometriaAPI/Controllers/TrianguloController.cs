@@ -16,5 +16,14 @@ namespace GeometriaAPI.Controllers
             string[] medidas = {basev.ToString(), alturav.ToString()};
             return triangulo.CalcularArea(medidas).ToString();
         }
+         [HttpGet]
+        [Route("GetPerimetro")]
+        public ActionResult<string> GetPerimetro(double ladov)
+        {
+            Triangulo triangulo = new Triangulo();
+            string[] medidas = {ladov.ToString()};
+            return triangulo.CalcularPerimetro(medidas).ToString();
+        }
+
     }
 }
