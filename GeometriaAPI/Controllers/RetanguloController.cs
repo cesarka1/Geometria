@@ -1,4 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
+using GeometriaAPI.Models;
+using System;
 
 namespace GeometriaAPI.Controllers
 {
@@ -8,7 +10,9 @@ namespace GeometriaAPI.Controllers
     {
         [HttpGet]
          public ActionResult<string> GetArea(){
-            return "10";
+            Retangulo retangulo = new Retangulo();
+            string[] medidas = {"5", "5"};
+            return Convert.ToString(retangulo.CalcularArea(medidas));
          }
     }
 }
