@@ -24,6 +24,26 @@ namespace GeometriaTest
             double resultado = retangulo.CalcularArea(medidas);
             Assert.AreEqual(esperado, resultado);
         }
+        [TestMethod]
+        public void RetanguloCalcularAreaTestcomtextoSegundaPosicao()
+        {
+            Retangulo retangulo = new Retangulo();
+            double esperado = -1;
+            string[] medidas = {"4", "m"};
+            double resultado = retangulo.CalcularArea(medidas);
+            Assert.AreEqual(esperado, resultado);
+        }
+        [TestMethod]
+        public void RetanguloCalcularPerimetro()
+        {
+            Retangulo retangulo = new Retangulo();
+            double esperado = 18;
+            string[] medidas = {"4", "5"};
+            double resultado = retangulo.CalcularPerimetro(medidas);
+            Assert.AreEqual(esperado, resultado);
+        }
+
+
 
 
     }
