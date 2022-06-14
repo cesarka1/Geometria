@@ -8,6 +8,7 @@ namespace GeometriaAPI.Models
     public class Triangulo : Geometria, IGeometriaFormula{
         public double CalcularArea(string[] m)
         {
+            
             double basev;
             double alturav;
             

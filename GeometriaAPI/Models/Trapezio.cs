@@ -23,7 +23,7 @@ namespace GeometriaAPI.Models
          }
 
          public double CalcularPerimetro(string[] m)
-         {
+        {
             double lado1;
             double lado2;
             double lado3;
@@ -41,6 +41,6 @@ namespace GeometriaAPI.Models
                 return -1;
             }
             return (lado1+lado2+lado3+lado4);
-         }
+        }
     }
 }

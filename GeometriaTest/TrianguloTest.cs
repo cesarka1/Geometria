@@ -9,7 +9,7 @@ namespace GeometriaTest
         public void TrianguloCalcularAreaTestAccept()
         {
             Triangulo triangulo = new Triangulo();
-            double esperado = 8;
+            double esperado = 10;
             string[] medidas = {"4", "5"};
             double resultado = triangulo.CalcularArea(medidas);
             Assert.AreEqual(esperado, resultado);
