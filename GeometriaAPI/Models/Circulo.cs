@@ -2,17 +2,17 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using 
 
 namespace GeometriaAPI.Models
 {
     public class Circulo : Geometria, IGeometriaFormula
     {
-        double raio;
-        double pi = 3.1415;
-
-        public dobule CirculoCalcularArea(string[] m)
+        
+        public double CalcularArea(string[] m)
         {
+            double raio;
+            double pi = 3.14;
+
             try
             {
                 raio = double.Parse(m[0]);
@@ -22,12 +22,15 @@ namespace GeometriaAPI.Models
                 
                return -1;
             }
-            return raio*raio*pi;
+            return pi;
 
         }
 
-        public dobule CirculoCalcular(string[] m)
+        public double CalcularPerimetro(string[] m)
         {
+            double raio;
+            double pi = 3.1415;
+
             try
             {
                  raio = double.Parse(m[0]);
