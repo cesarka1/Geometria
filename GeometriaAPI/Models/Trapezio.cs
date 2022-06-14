@@ -26,21 +26,21 @@ namespace GeometriaAPI.Models
         {
             double lado1;
             double lado2;
-            double lado3;
-            double lado4;
+            double basemaior;
+            double basemenor;
 
             try
             {
                 lado1 = double.Parse(m[0]);
                 lado2 = double.Parse(m[1]);
-                lado3 = double.Parse(m[2]);
-                lado4 = double.Parse(m[3]);
+                basemaior = double.Parse(m[2]);
+                basemenor = double.Parse(m[3]);
             }
             catch (System.Exception)
             {
                 return -1;
             }
-            return (lado1+lado2+lado3+lado4);
+            return (lado1+lado2+basemaior+basemenor);
         }
     }
 }
